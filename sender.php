@@ -7,7 +7,7 @@
  **************************************
  */
 
-$to = 'cristianoaltamirano@gmail.com';
+$to = 'contacto@galcubo.com.ar';
 $siteName = "G3";
 
 /*

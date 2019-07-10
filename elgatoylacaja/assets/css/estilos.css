@@ -1,0 +1,85 @@
+.jumbotron {
+	display: none;
+}
+
+.navbar-toggle {
+    float: left;
+    margin-left: 15px;
+}
+
+.carrito {
+    float: right;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#offcanvas-menu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #222;
+    left: -240px;
+    right: 0;
+    width: 240px;
+    padding: 20px;
+    overflow-y: scroll !important;
+}
+
+.fh5co-offcanvas #fh5co-page {
+    -moz-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    transform: translateX(0px);
+}
+/*
+#offcanvas-menu {
+    -moz-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    transform: translateX(0px);
+}
+*/
+.fh5co-offcanvas #offcanvas-menu {
+    -moz-transform: translateX(240px);
+    -webkit-transform: translateX(240px);
+    -ms-transform: translateX(240px);
+    -o-transform: translateX(240px);
+    transform: translateX(240px);
+}
+
+#offcanvas-menu {
+    /*position: relative;*/
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+
+@media screen and (min-width: 768px) {
+	.jumbotron {
+		display: block;
+    	padding-top: 0;
+    	padding-bottom: 0;
+	}
+
+	.navbar-brand {
+		display: none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+}
+
